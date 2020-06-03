@@ -1,5 +1,5 @@
 //Break that is used to stop a loop based upon certain condition
-//problem statement Read a stream of numbers untill you get a multiple of 7
+//problem statement Read a stream of numbers untill you get a multiple of 13
 #include<iostream>
 using namespace std;
 
@@ -27,7 +27,7 @@ int main(){
         
     }
     cout<<"came out of loop";
-
+       
 
     return 0;
 }
