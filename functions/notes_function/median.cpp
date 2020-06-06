@@ -33,6 +33,7 @@ for(int i=0;i<n;i++)
 int med1,med2;
 med1=median(a,n);
 med2=median(b,n);
+
 cout<<(med1+med2)/2;
 
 	return 0;
