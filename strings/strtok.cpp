@@ -8,11 +8,11 @@ using namespace std;
 
 int main(){
     char s[100]="i love c++ and python";
-    char *ptr =strtok(s,"and");
+    char *ptr =strtok(s," ");
     cout<<ptr<<endl;
     while (ptr!=NULL)
     {
-    ptr=strtok(NULL,"and");
+    ptr=strtok(NULL," ");
     cout<<ptr<<endl;
     }
     
