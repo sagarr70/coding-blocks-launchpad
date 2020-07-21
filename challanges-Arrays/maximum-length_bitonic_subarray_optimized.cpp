@@ -40,12 +40,23 @@ void maxlengthbitonic()
           right[i]=1;
       }
   }
-
+int u=0;
+int y=0;
 int maxi=INT_MIN;
 for (int i = 0; i < n; i++)
-{
+{   int maxipre=maxi;
     maxi=max(left[i] + right[i] - 1,maxi);
+    if (maxipre!=maxi)
+    {
+        u=i-(left[i]-1);
+        y=i+(right[i]-1);
+    }
 }
+for (int i = u; i <=y; i++)
+{
+    cout<<a[i]<<" ";
+}
+cout<<endl;
 cout<<maxi<<endl;
 }
 int main(){

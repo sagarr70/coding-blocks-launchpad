@@ -19,6 +19,11 @@ int main(){
          max_left=max(max_left,a[i]);
         lef[i]=max_left;
     }
+    cout<<endl;
+    for (int i = 0; i < n; i++)
+    {
+        cout<<lef[i]<<" ";
+    }
     
  
     max_left=INT_MIN;
@@ -26,6 +31,12 @@ int main(){
    {  max_left=max(max_left,a[i]);
       righ[i]=max_left;
    }
+   cout<<endl;
+   for (int i = 0; i < n; i++)
+    {
+        cout<<righ[i]<<" ";
+    }
+    cout<<endl;
    int water=0;
    for (int i = 0; i < n; i++)
    {
