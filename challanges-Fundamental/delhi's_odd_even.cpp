@@ -13,7 +13,7 @@ int main(){
         while (no>0)
         {
             int last = no%10;
-            cout<<last;
+            //cout<<last;
             last%2==0?even+=last:odd+=last;
             no=no/10;
         }
