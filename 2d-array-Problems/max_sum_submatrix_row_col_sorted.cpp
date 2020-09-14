@@ -22,28 +22,28 @@ int main(){
             if (j==n-1)
             {
                 sufsum[i][j]=a[i][j];
-               // cout<<i<<" "<<j<<" if"<<endl;
+                //cout<<i<<" "<<j<<" if"<<endl;
             }
             
             else
             {
                 sufsum[i][j]=sufsum[i][j+1]+a[i][j];
-                //cout<<i<<" "<<j<<" else"<<endl;
+               // cout<<i<<" "<<j<<" else"<<endl;
             }
           
         }
 
     }
-    /*for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
             cout<<sufsum[i][j]<<" ";
         }
         cout<<endl;
-    }*/
+    }
 
-//cout<<endl;
+cout<<endl;
 //coloumn Addition
        for (int i = n-1; i >=0; i--)
     {
@@ -53,14 +53,14 @@ int main(){
         }
         
     }
-    /*for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
             cout<<sufsum[i][j]<<" ";
         }
         cout<<endl;
-    }*/
+    }
 int sum=INT_MIN;
     for (int i = 0; i <n; i++)
     {
